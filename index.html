@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Video Downloader</h1>
+      <form id="downloadForm">
+        <label for="videoURL">Enter Video URL:</label>
+        <input type="text" id="videoURL" name="videoURL" placeholder="Enter video URL" required>
+
+        <label for="platform">Choose Platform:</label>
+        <select id="platform" name="platform">
+          <option value="youtube">YouTube (Optional: Convert to MP3)</option>
+          <option value="tiktok">TikTok (Video and Photo)</option>
+          <option value="instagram">Instagram</option>
+          <option value="facebook">Facebook</option>
+        </select>
+
+        <button type="submit">Download</button>
+      </form>
+      <div id="result">
+        <!-- Result will be displayed here -->
+      </div>
+      <div id="notice">
+        <!-- Notice about Facebook private videos -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

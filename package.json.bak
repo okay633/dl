@@ -1,0 +1,16 @@
+{
+  "name": "video-downloader",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "ytdl-core": "^4.9.1",
+    "tiktok-scraper": "^2.2.6",
+    "instagram-scraper": "^1.0.0",
+    "facebook-scraper": "^1.0.0"
+  }
+}
